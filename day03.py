@@ -17,3 +17,12 @@ total=price*count-discount
 print("итог со скидкой", total)
 print(17%2)
 #проверка git diff
+#я изменил этот файл после коммита
+seconds=5000
+hours=seconds//3600
+ost=seconds%3600
+minutes=ost//60
+remaining_seconds=ost%60
+print("часы:", hours)
+print("минуты:", minutes)
+print("секунды:", remaining_seconds)
