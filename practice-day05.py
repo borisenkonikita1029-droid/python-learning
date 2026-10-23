@@ -1,0 +1,11 @@
+name=input("Ваше имя?")
+product=input("какой товар покупаете?")
+price=float(input("Цена за 1 шт"))
+quantity=int(input("Сколько штук?"))
+amount=price*quantity
+print(f"сумма= {amount}")
+print("---ЧЕК---")
+print(f"покупатель: {name}")
+print(f"Товар: {product}")
+print(f"Итого к оплате: {round(amount, 2)} руб")
+print("Спасибо за покупку!")
