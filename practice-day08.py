@@ -1,0 +1,7 @@
+years=int(input("Введите текущий год"))
+birthday=int(input("Введите свой год рождения"))
+age=(years-birthday)
+age_limit=int(input("Сколько лет нужно для входа в сайт?"))
+print(f"Ваш возраст {age}")
+print(f"Доступ разрешен {age>=age_limit}")
+print(f"Вы родились в высокосный год (true/false): {birthday%4==0}")
